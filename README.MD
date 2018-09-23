@@ -13,7 +13,7 @@ mvn package
 ## Запуск
 
 ```
-java -jar spring-mvc-1.0-SNAPSHOT.jar
+java -jar spring-mvc-1.0.1-SNAPSHOT.jar
 ```
 
 По-умолчанию используются ip:port `127.0.0.1:8080`. Для изменения требуется добавить следующие параметры:
