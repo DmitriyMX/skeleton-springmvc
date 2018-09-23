@@ -77,12 +77,6 @@ public class WebApp {
         }
     }
 
-    /**
-     * Для запуска можно указать два параметра: хост и порт.
-     * По-умолчанию: 127.0.0.1:8080
-     *
-     * @param args параметры запуска
-     */
     public static void main(String[] args) {
         final String host = System.getProperty("host", "127.0.0.1");
         final int port = Integer.parseInt(System.getProperty("port", "8080"));
