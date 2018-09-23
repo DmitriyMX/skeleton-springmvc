@@ -84,13 +84,8 @@ public class WebApp {
      * @param args параметры запуска
      */
     public static void main(String[] args) {
-        String host = "127.0.0.1";
-        int port = 8080;
-
-        if (args.length == 2) {
-            host = args[0];
-            port = Integer.parseInt(args[1]);
-        }
+        final String host = System.getProperty("host", "127.0.0.1");
+        final int port = Integer.parseInt(System.getProperty("port", "8080"));
 
         log.info("Web app listen: {}:{}", host, port);
         WebApp app = new WebApp(host, port);
