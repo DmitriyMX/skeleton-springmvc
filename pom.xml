@@ -15,7 +15,7 @@
         <slf4j.version>1.7.25</slf4j.version>
         <log4j.version>2.11.1</log4j.version>
         <spring.version>5.1.0.RELEASE</spring.version>
-        <jetty.version>9.4.12.v20180830</jetty.version>
+        <jetty.version>9.4.35.v20201120</jetty.version>
         <dependencies.dir>lib</dependencies.dir>
         <main.class>ru.dmitriymx.skeleton.springmvc.WebApp</main.class>
     </properties>
